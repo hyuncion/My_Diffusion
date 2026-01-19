@@ -12,7 +12,7 @@ cd My_Diffusion
 pip install -r requirements.txt
 ```
 
-## (옵션) 토이 데이터셋 생성
+## (Option) Toy Dataset 생성
 
 외부 다운로드 없이 빠르게 파이프라인을 확인할 수 있도록 간단한 도형 이미지 데이터셋을 생성합니다.
 

@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.Python
+.DS_Store
+.vscode/
+
+# Outputs / artifacts
+outputs/
+data/
+*.pt
+*.ckpt
+*.pth
+*.safetensors
+
+# Logs
+*.log
+

@@ -17,7 +17,7 @@ pip install -r requirements.txt
 python make_toy_dataset.py --out_dir data/toy --num_images 20000 --image_size 32
 ```
 
-## 학습
+## Training
 
 로컬 이미지 폴더(`--data_dir`)를 사용합니다(하위 폴더 포함, jpg/png/webp/bmp 지원).
 
@@ -31,7 +31,7 @@ python train.py \
   --out_dir outputs/ddpm_toy32
 ```
 
-## 추론(샘플 생성)
+## Inference
 
 ```bash
 python sample.py \
@@ -41,9 +41,9 @@ python sample.py \
   --out_dir outputs/ddpm_toy32/samples
 ```
 
-## 성능 측정
+## Evaluation
 
-**1) Validation loss(노이즈 예측 MSE)**
+**1) Validation loss(MSE)**
 
 ```bash
 python eval_loss.py \
@@ -53,7 +53,7 @@ python eval_loss.py \
   --num_batches 50
 ```
 
-**2) Sampling 속도/메모리**
+**2) Sampling speed/memory**
 
 ```bash
 python benchmark.py \

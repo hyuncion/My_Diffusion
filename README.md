@@ -2,10 +2,7 @@
 
 PyTorch로 만든 **기본 DDPM(Diffusion Model)** 예제 코드입니다.
 
-- `torchvision` 없이 동작 (PIL 기반 로컬 이미지 폴더 데이터셋)
-- 학습(`train.py`), 추론/샘플링(`sample.py`), 성능 측정(평가 `eval_loss.py`, 속도 `benchmark.py`) 포함
-
-## 설치
+## Setup
 
 ```bash
 cd My_Diffusion
